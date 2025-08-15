@@ -3,6 +3,7 @@ import org.binaryminds.ejercicio1.NumeroPar;
 import org.binaryminds.ejercicio2.NumeroPrimo;
 import org.binaryminds.ejercicio3.AdivinarNumero;
 import org.binaryminds.ejercicio4.ConversionGrados;
+import org.binaryminds.ejercicio5.AdministradorDeTareas;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,7 +21,7 @@ public class Main {
             System.out.println("3 - Adivinar número aleatorio");
             System.out.println("4 - Conversión de grados");
             System.out.println("5 - Organizar tareas");
-            System.out.println("6 - Administrar agenda de contactos");
+            //System.out.println("6 - Administrar agenda de contactos");
             System.out.println("0 - Terminar ejecución");
             System.out.print("Ingrese una opcion: ");
 
@@ -44,7 +45,7 @@ public class Main {
                     break;
 
                 case 5:
-
+                    AdministradorDeTareas administradorDeTareas = new AdministradorDeTareas();
                     break;
 
                 case 0:
